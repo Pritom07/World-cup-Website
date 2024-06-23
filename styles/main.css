@@ -1,0 +1,203 @@
+/* --------------------Importing google font poopins-------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*----------------- Common styles or utilities ------------*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    max-width: 1240px;
+    margin: 0px auto;
+}
+
+/* -----------------------Top-banner style---------------- */
+
+.top-banner {
+    display: flex;
+    margin-top: 1.5%;
+    width: 101%;
+    border-radius: 12px;
+    background-color: black;
+}
+
+.gratest-show,
+.messi {
+    width: 50%;
+}
+
+.gratest-show {
+    margin-left: 11%;
+    margin-top: 1%;
+}
+
+.gratest-show h1 {
+    color: white;
+    font-size: 69px;
+}
+
+.show {
+    position: relative;
+    bottom: 22px;
+}
+
+.earth {
+    position: relative;
+    bottom: 40px;
+}
+
+.gratest-show p {
+    color: gray;
+    font-size: 16px;
+    position: relative;
+    bottom: 15%;
+}
+
+.gratest-show button {
+    height: 45px;
+    width: 30%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 8px;
+    position: relative;
+    bottom: 13%;
+    background-color: red;
+    transition: width 0.3s ease-in;
+}
+
+.gratest-show button:hover {
+    width: 40%;
+    color: black;
+    cursor: pointer;
+}
+
+.gratest-show button i {
+    position: relative;
+    top: 1.5px;
+    left: 6px;
+    font-weight: bold;
+}
+
+.messi img {
+    position: relative;
+    top: 10px;
+    right: 39.5%;
+    height: 105%;
+    width: 160%;
+}
+
+/*---------------- Schedule-section style------------------ */
+
+.schedule-section {
+    display: flex;
+    margin-top: 5%;
+}
+
+.scheduling {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 260px;
+    height: 312px;
+    padding-bottom: 2.3%;
+}
+
+.scheduling button {
+    margin-top: 10%;
+    height: 35%;
+    width: 80%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10%;
+
+}
+
+.scheduling button:hover {
+    border: 1px solid black;
+    box-shadow: inset 0 0 10px gray;
+}
+
+
+
+.upcoming,
+.all-group,
+.blog {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+}
+
+.scheduling>.red-blog {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.scheduling>.red-blog:hover {
+    border: 1px solid black;
+    box-shadow: inset 0 0 10px white;
+}
+
+.blog {
+    color: white;
+}
+
+/*------------------ Matche-previews section style----------------- */
+
+
+.matche-previews {
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 37.5%);
+    row-gap: 14px;
+}
+
+.per-match {
+    width: 292px;
+    height: 335px;
+    border: 1px solid grey;
+    border-radius: 11px;
+    padding-right: 6%;
+}
+
+.per-match button {
+    width: 100px;
+    height: 32px;
+    border: 0.5px solid grey;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+
+.per-match h5 {
+    font-size: 16px;
+    position: relative;
+    bottom: 14px;
+    left: 18px;
+}
+
+.clock-comment {
+    display: flex;
+    position: relative;
+    bottom: 15%;
+    left: 5.5%;
+}
+
+.message {
+    margin-left: 10%;
+}
+
+.view-all {
+    display: none;
+}

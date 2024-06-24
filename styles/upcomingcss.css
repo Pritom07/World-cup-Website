@@ -139,79 +139,91 @@ body {
     font-size: 17px;
 }
 
-.scheduling>.red-blog {
+.scheduling>.red-upcoming {
+
     background-color: red;
     border: 1px solid red;
 }
 
-.scheduling>.red-blog:hover {
-
+.scheduling>.red-upcoming:hover {
     box-shadow: inset 0 0 10px white;
 }
 
-.blog {
+.upcoming {
     color: white;
 }
 
-/*------------------ Matche-previews section style----------------- */
+/*--------------- clashing-section style ------------------*/
 
-
-.matche-previews {
-    margin-left: 2%;
+.clashing-section {
+    margin-left: 1.5%;
     display: grid;
-    grid-template-columns: repeat(3, 37.5%);
-    row-gap: 14px;
+    grid-template-columns: repeat(3, 35.3%);
+    row-gap: 22px;
+
 }
 
-.per-match {
-    width: 292px;
-    height: 335px;
+.clash {
+    width: 312px;
+    height: 215px;
     border: 1px solid grey;
-    border-radius: 11px;
-    padding-right: 6%;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1.5px 1.5px grey;
 }
 
-.per-match button {
-    width: 100px;
-    height: 32px;
-    border: 0.5px solid grey;
-    border-radius: 3px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-left: 5%;
-}
-
-.per-match h5 {
-    font-size: 16px;
-    position: relative;
-    bottom: 14px;
-    left: 18px;
-}
-
-.clock-comment {
+.head-to-head {
     display: flex;
-    position: relative;
-    bottom: 15%;
-    left: 5.5%;
+    margin-top: 10%;
 }
 
-.message {
+.firstcountry,
+.secondcountry {
+    width: 40%;
+}
+
+.firstcountry img,
+.secondcountry img {
+    width: 100%;
+    margin-left: 9%;
+}
+
+.head-to-head P {
     margin-left: 10%;
+    position: relative;
+    right: 3.5%;
+    font-size: 16px;
+    font-weight: 700;
 }
 
-.view-all {
-    display: none;
+.secondcountry {
+    position: relative;
+    right: 4%;
+}
+
+.clash h4 {
+    font-size: 18px;
+    position: relative;
+    left: 20%;
+    bottom: 15px;
+}
+
+.clash h6 {
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+    position: relative;
+    bottom: 40px;
+    left: 23%;
 }
 
 /* ----------Footer section style ------------*/
 
 footer {
     width: 102%;
-    height: 420px;
+    height: 400px;
     border-radius: 7px;
     background-color: #161616;
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 footer h3 {

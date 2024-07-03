@@ -391,23 +391,23 @@ footer h3 {
 
     footer {
         width: 100%;
-        height: 800px;
-        padding-top: 3%;
+        height: 670px;
+        padding-top: 5%;
     }
 
     footer h3 {
         font-size: 35px;
         position: relative;
         top: -0.5%;
-        padding-top: 20%;
-        margin-left: -8%;
+        padding-top: 9%;
+        margin-left: -11%;
     }
 
     .contact {
         flex-direction: column;
         position: relative;
         bottom: 140px;
-        margin-top: -40%;
+        margin-top: -38%;
     }
 
     .contact-first,
@@ -431,7 +431,7 @@ footer h3 {
 
     .communication {
         position: relative;
-        top: 110px;
+        top: 70px;
         right: 12%;
     }
 
